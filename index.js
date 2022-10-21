@@ -8,3 +8,5 @@ fightButton.addEventListener("click", function() {
    let randomIndexTwo = Math.floor(Math.random() * fighters.length)
    stageEl.textContent = fighters[randomIndexOne] + " vs " + fighters[randomIndexTwo]
 })
+
+
